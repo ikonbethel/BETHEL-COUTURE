@@ -43,10 +43,10 @@ BETHEL-COUTURE is an e-commerce website developed as a final specialization proj
     npm install
 
 3. Create a .env file in the backend directory and add the following environment variables:
-    PORT=4000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    STRIPE_SECRET_KEY=your_stripe_secret_key
+    a. PORT=4000
+    b. MONGO_URI=your_mongodb_connection_string
+    c. JWT_SECRET=your_jwt_secret
+    d. STRIPE_SECRET_KEY=your_stripe_secret_key
 
 4. Start the backend server:
     npm run server
@@ -59,18 +59,18 @@ BETHEL-COUTURE is an e-commerce website developed as a final specialization proj
     npm install
 
 3. Create a .env file in the frontend directory and add the following environment variables:
-    REACT_APP_BACKEND_URL=http://localhost:4000
-    REACT_APP_STRIPE_KEY=your_stripe_public_key
+    a. REACT_APP_BACKEND_URL=http://localhost:4000
+    b. REACT_APP_STRIPE_KEY=your_stripe_public_key
 
 4. Start the frontend development server:
     npm run dev
 
 ## Usage
-    Open your browser and navigate to http://localhost:3000.
-    Register a new user or log in with existing credentials.
-    Browse products, add items to the cart, and proceed to checkout.
-    Complete the payment using Stripe.
-    View order history and track delivery status.
+    a. Open your browser and navigate to http://localhost:5173/
+    b. Register a new user or log in with existing credentials.
+    c. Browse products, add items to the cart, and proceed to checkout.
+    d. Complete the payment using Stripe.
+    e. View order history and track delivery status.
 
 ## Contributing
     Contributions are welcome! Please fork the repository and create a pull request with your changes.
