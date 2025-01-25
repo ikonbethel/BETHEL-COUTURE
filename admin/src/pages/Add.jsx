@@ -50,7 +50,7 @@ const Add = ({token}) => {
 				setImage3(false)
 				setImage4(false)
 			}else{
-				toast.error(error.data.message)
+				toast.error(response.data.message)
 			}
 
 		} catch (error) {
