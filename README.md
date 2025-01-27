@@ -164,7 +164,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 This README file now includes a section on admin usage, detailing how admins can manage products, orders, and users.
 
 **YOU CAN TRY OUT THE DEMONSTRATION OF THIS APP ON THE HOSTED SITE AT**
-*<!-- https://bethel-frontend.vercel.app -->*
-*<!-- https://bethel-admin.vercel.app -->*
+1. [FRONTEND LINK](https://bethel-frontend.vercel.app)
+2. [ADMIN LOGIN](https://bethel-admin.vercel.app)
 
 CREATE A USER ACCOUNT AND LOG IN TO ACCESS THE SITE'S FRONTEND FUNCTIONALITY
