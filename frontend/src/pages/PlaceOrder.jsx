@@ -39,7 +39,6 @@ const PlaceOrder = () => {
             order_id: order.id,
             receipt: order.receipt,
             handler: async (response) => {
-                console.log(response)
                 try {
                     const {data} = await axios.post(backendUrl + '/api/order/verifyRazorpay',response, {headers:{token}} )
                     if (data.success) {
@@ -47,7 +46,6 @@ const PlaceOrder = () => {
                         setCartItems({})
                     }
                 } catch (error) {
-                    console.log(error);
                     toast.error(error)
                     
                 }
@@ -74,7 +72,6 @@ const PlaceOrder = () => {
                     }
                 }
             }
-            console.log(orderItems);
               
             let orderData = {
                 items: orderItems,
@@ -124,7 +121,6 @@ const PlaceOrder = () => {
                     break;
             }
         } catch (error) {
-            console.log(error)
             toast.error (error.message)
         }   
     }
