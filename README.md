@@ -29,8 +29,8 @@ BETHEL-COUTURE is an e-commerce website developed as a final specialization proj
 
 *YOU CAN TRY OUT THE DEMONSTRATION OF THIS APP ON THE HOSTED SITE AT*
 
-1. GOTO [FRONTEND LINK](https://bethel-frontend.vercel.app)
-2. GOTO [ADMIN LOGIN](https://bethel-admin.vercel.app)
+1. GOTO <a href='https://bethel-frontend.vercel.app/'>[FRONTEND LINK]</a>
+2. GOTO <a href='https://bethel-admin.vercel.app/'>[ADMIN LOGIN]</a>
 
 CREATE A USER ACCOUNT AND LOG IN TO ACCESS THE SITE'S FRONTEND FUNCTIONALITY
 
